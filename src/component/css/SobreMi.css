@@ -1,0 +1,53 @@
+.titulo{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+
+}
+.contenedor1 {
+    position: relative;
+    padding:10px 5%;
+}
+
+.contenedor2{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.contenedor2 #main1 {
+    color:white;
+    text-align: justify;
+    width: 40%;
+    
+}
+.contenedor2 #main2 {
+    color:white;
+    text-align: justify;
+    width: 60%;
+   
+    
+}
+
+.contenedor2 main h3 {
+    color:white;
+    text-align: center;
+      
+}
+
+
+
+.imgSobreMi {
+    padding: 15px 10%;
+    
+}
+
+/* background: #281A3E;
+}
+
+.contenedor2 main p {
+    background: #281A3E; 
+}
+
+
+*/
