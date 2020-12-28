@@ -1,0 +1,60 @@
+.card {
+   
+    background:black;
+}
+
+.card-header {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.card-body  {
+    background: white;
+    color:black;
+}
+.card-body p {
+    background: white;
+    color:black;
+}
+
+.card-body a {
+    background: #00bfe7;
+}
+
+/* Imagen */
+
+.card-header figure img {
+    transition: all 500ms ease-out;
+}
+
+.card-header figure .capa {
+    position: absolute;
+    top:0;
+    background:rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms ease-out;
+}
+
+.card-header figure .capa p {
+    background:transparent;
+    color:white;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.card-header figure .capa h3 {
+    background:transparent;
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.card-header figure:hover .capa{
+    opacity: 1;
+    visibility: visible;
+}

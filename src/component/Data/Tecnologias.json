@@ -3,20 +3,20 @@
    "tecnologias": [
        {   "id":0 ,
            "titulo":"HTML",
-           "imagen":"../media/tecnologias/html.png"
+           "imagen":"./tecnologias/html.png"
             
        },
 
        {
         "id":1,  
         "titulo":"CSS",
-        "imagen":"../media/tecnologias/css.png" 
+        "imagen":"./tecnologias/css.png" 
     },
 
     {
         "id":2,
         "titulo":"Javascript",
-        "imagen":"../media/tecnologias/Js.png" 
+        "imagen":"./tecnologias/Js.png"  
     }
     
    ]

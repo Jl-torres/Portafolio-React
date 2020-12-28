@@ -1,0 +1,10 @@
+{
+    "App-react": [
+        {   "id":0 ,
+            "titulo":"Portafolio",
+            "Contenido": "Creacion de aplicacion web para muestras de proyectos culminados",
+            "imagen":"./proyectosCulminados/cleanability.jpeg"
+             
+        }     
+    ]
+ }

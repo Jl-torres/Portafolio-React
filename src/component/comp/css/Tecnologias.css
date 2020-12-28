@@ -2,13 +2,13 @@
     margin-top:10%;
 }
 
-.card {
+.carta {
    
     position: relative;
     overflow: hidden;
 }
 
-.card:before {
+.carta:before {
     position: absolute;
     content: '';
     width: 80%;
@@ -16,37 +16,37 @@
     background: rgb(0,191,231,0.7);
     top:-50%;
     left:-100%;
-    z-index:1;
+    z-index:30;
     transform: rotate(25deg);
     transform-origin: center top 0 ;
     transition: .5s;
 }
 
-.card:hover:before {
+.carta:hover:before {
     left:10%
 }
 
-.card img {
+.carta img {
     width: 100%;
     height: 230px;
 }
 
-.card-text{
+.carta-texto{
     width: 100%;
     padding: 0 20px;
     position: absolute;
     top:-100%;
     color:#fff;
     left:0;
-    z-index: 2;
+    z-index: 30;
     transition: 1.1s;
     background: transparent !important;
 }
-.card-text h4{
+.carta-texto h4{
     background: transparent !important;
 }
 
-.card:hover .card-text {
+.carta:hover .carta-texto {
     
     top: 80px;
     background:transparent !important;

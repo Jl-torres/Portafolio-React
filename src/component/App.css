@@ -1,13 +1,19 @@
 /*----------------------------------------*/
 /* General
 /*----------------------------------------*/
+
 * {
   background-image: url("./media/background.jpg");
   background-attachment: fixed;
   background-size:cover;
   background-repeat: no-repeat;
   margin: 0;
+  z-index: 20;
  }
+
+ 
+ 
+
 /*---------------------
   Header
 -----------------------*/
