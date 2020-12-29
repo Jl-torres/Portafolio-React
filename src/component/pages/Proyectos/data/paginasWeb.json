@@ -1,5 +1,5 @@
 {
-    "PagWeb": [
+    "paginasWeb": [
         {   "id":0 ,
             "titulo":"cleanability Restoration",
             "Contenido": "Rediseño de la pagina web",
@@ -19,7 +19,20 @@
          "titulo":"Aprende Facil",
          "Contenido": "Creacion de una pagina web de Cursos Online",
          "imagen":"./tecnologias/Js.png"  
-     }
+     },
+     {
+        "id":3,
+        "titulo":"Aprende Facil",
+        "Contenido": "Creacion de una pagina web de Cursos Online",
+        "imagen":"./tecnologias/Js.png"  
+    },
+
+     {
+        "id":4,
+        "titulo":"egodoy realtor.",
+         "Contenido": "Creacion de una pagina web de ventas inmobiliarias",
+         "imagen":"./proyectosCulminados/cleanability.jpeg"  
+    }
      
     ]
  }

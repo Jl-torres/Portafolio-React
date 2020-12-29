@@ -8,7 +8,9 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 //Componentes
-import Tecnologia1 from "./Tecnologia1"
+import AplicacionesReact from "./TipoDeProyecto/AplicacionesReact"
+import PaginasWeb from "./TipoDeProyecto/PaginasWeb" 
+import AplicacionesJs from "./TipoDeProyecto/AplicacionesJs"
 
    function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -64,22 +66,27 @@ export default function SimpleTabs() {
       <AppBar position="relative">
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" 
         indicatorColor="primary" centered  >
-          <Tab label="JavasCripts" {...a11yProps(0)} />
+          <Tab label="JavaScript" {...a11yProps(0)} />
           <Tab label="React" {...a11yProps(1)} />
           <Tab label="Paginas Web" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
        
-        <Tecnologia1/>
+      <AplicacionesJs/>
       
+     </TabPanel>
 
-      </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        
+        <AplicacionesReact/>
+        
       </TabPanel>
+
       <TabPanel value={value} index={2}>
-        Item Three
+
+        <PaginasWeb/>
+
       </TabPanel>
     </div>
   );

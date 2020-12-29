@@ -9,7 +9,7 @@ import {
 import Home from "./pages"
 import SobreMi from "./pages/SobreMi"
 import Servicios from "./pages/Servicios"
-import Proyectos from "./pages/Proyectos/Proyectos"
+import SimpleTabs from "./pages/Proyectos/Proyectos"
 import Contacto from "./pages/Contacto"
 import Error404 from "./pages/Error404"
 //Css
@@ -21,20 +21,6 @@ import Logo from "./media/Logo.png"
 
 
 class App extends Component  {
-  /*constructor(...props) {
-    super(...props) 
-    this.state= {
-      authed:false,
-      loading:true
-     }
-
-     this.handleOnClick = this.handleOnClick.bind(this)
-  }
-
-  handleOnClick() {
-   document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
-   document.getElementById('toggle').classList.toggle('x');
-  }*/
 
   render () { 
     return (
@@ -67,7 +53,7 @@ class App extends Component  {
               <Route path="/" exact component={Home}/>
               <Route path="/SobreMi" exact component={SobreMi}/>
               <Route path="/Servicios" exact component={Servicios}/>
-              <Route path="/Proyectos" exact component={Proyectos}/>
+              <Route path="/Proyectos" exact component={SimpleTabs}/>
               <Route path="/Contacto" exact component={Contacto}/>
               <Route exact component={Error404}/>
               </Switch>

@@ -1,10 +1,17 @@
 {
-    "App-react": [
+    "AppReact": [
         {   "id":0 ,
             "titulo":"Portafolio",
             "Contenido": "Creacion de aplicacion web para muestras de proyectos culminados",
             "imagen":"./proyectosCulminados/cleanability.jpeg"
              
-        }     
+        }   ,
+        
+        {   "id":2 ,
+            "titulo":"Proyecto 2",
+            "Contenido": "Creacion de una aplicacion web",
+            "imagen":"./proyectosCulminados/cleanability.jpeg"
+             
+        } 
     ]
  }

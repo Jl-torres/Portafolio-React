@@ -1,5 +1,5 @@
 .card {
-   
+    margin-top:25px;
     background:black;
 }
 
@@ -12,6 +12,7 @@
 .card-body  {
     background: white;
     color:black;
+    height: 150px;
 }
 .card-body p {
     background: white;
