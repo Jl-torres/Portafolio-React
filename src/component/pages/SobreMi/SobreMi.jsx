@@ -1,16 +1,16 @@
 import React, {Component} from 'react'
 
 //css
-import "../css/SobreMi.css"
+import "./css/SobreMi.css"
 //Imagenes
-import ImgPerfil from "../media/home/ImgPerfil.jpg" 
+import ImgPerfil from "../Inicio/media/ImgPerfil.jpg" 
 
 
 export default class SobreMi extends Component {
   render () {
     return (
       <div>
-        <div className="contenedor1">
+        <div className="contenedor1" id="SobreMi">
           <h3 className="titulo">Sobre Mi.</h3>
           <div className="contenedor2">
           <main id="main1">

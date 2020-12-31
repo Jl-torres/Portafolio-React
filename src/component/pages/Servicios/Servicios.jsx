@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 //css
-import "../css/Servicios.css"
+import "./css/Servicios.css"
 
 //Componentes
-import ServCards from "../comp/ServCards"
-import Tecnologias from '../comp/Tecnologias'
+import ServCards from "./ServCards"
+import Tecnologias from './Tecnologias'
 
 export default class Servicios extends Component {
   render () {
@@ -13,10 +13,8 @@ export default class Servicios extends Component {
       <div>
 
        <h3 className="titulo mt-5">Servicios.</h3>
-  
-     <div className="container">
-      
-              <div className="row ">
+   
+              <div className="row">
 
                 <div className="col-lg-4 col-md-6 col-sm-6">
                    
@@ -51,32 +49,16 @@ export default class Servicios extends Component {
                 </div>
 
                 </div>
-        
-    
-    
-          </div> 
-        
 
-                       <Tecnologias/>
-
-       
-       </div>
+                <h3 className="titulo">Tecnologias</h3>
+                <Tecnologias/>      
+              
+               </div>
+               
            ) 
             }
 
   }
 
 
-  /* 
-
-      <i className=" icono1 fas fa-laptop-code"></i>
-        Diseño Web Resposive: se crean paginas web a tu medida usando tecnologias como HTML, CSS y Javascrip
-
-        Full Responsive: podras ver tu sitio web desde cualquier dispositivo, incluyendo computadoras tablets y telefonos
-        inteligentes
-        
-        Desarrollo de aplicaciones moviles: Se crean aplicaciones que permitan al cliente realizar actividades profesionales, 
-        acceder a servicios, mantenerse informado, entre otro universo de posibilidades.
-
-                    
-                    */
+  

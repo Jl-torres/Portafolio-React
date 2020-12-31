@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 //css
 import "./css/Tecnologias.css"
 //data
-import {tecnologias} from "../Data/Tecnologias.json"
+import {tecnologias} from "./data/Tecnologias.json"
 
 
 
@@ -21,7 +21,7 @@ export default class Tecnologias extends Component {
     const tecnologia = this.state.tecnologias.map((tecnologias) => {
       return (
         
-        <div key={tecnologias.id}  className="col-md-4 col-sm-6">
+        <div key={tecnologias.id}  className="col-md-4 ">
 
         <div className="carta mt-4">
               
@@ -44,15 +44,14 @@ export default class Tecnologias extends Component {
     return (
       <div>
         
-
-           
-        <div className="container">
+       <div className="container">
            <div className="row">
-
+             
               {tecnologia}
 
-              </div>
-                </div>
+           </div>
+              
+       </div>  
       
              
       )

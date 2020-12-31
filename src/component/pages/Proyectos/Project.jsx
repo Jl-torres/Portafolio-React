@@ -23,7 +23,7 @@ const Projects = (props) => (
 
           <div className="card-body">
             <p>{props.Contenido}</p>
-          <a href="#" className="btn btn-primary">Ver Codigo</a>
+          <a href="#" className="btn btn-pt btn-primary">Ver Codigo</a>
           </div>
                
            </div>

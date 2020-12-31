@@ -6,12 +6,12 @@ import {
   Link
 } from "react-router-dom";
 //Paginas
-import Home from "./pages"
-import SobreMi from "./pages/SobreMi"
-import Servicios from "./pages/Servicios"
+import Home from "./pages/index"
+import SobreMi from "./pages/SobreMi/SobreMi"
+import Servicios from "./pages/Servicios/Servicios"
 import SimpleTabs from "./pages/Proyectos/Proyectos"
-import Contacto from "./pages/Contacto"
-import Error404 from "./pages/Error404"
+import Contacto from "./pages/Contacto/Contacto"
+import Error404 from "./pages/Error404/Error404"
 //Css
 import "./App.css"
 //Imagenes
@@ -35,7 +35,7 @@ class App extends Component  {
             <div className="header__nav__option">
             <nav className="header__nav__menu mobile-menu">
             <ul>
-            <li className="nav-item"><Link to="/" className="nav-link">Home</Link></li>
+            <li className="nav-item"><Link to="/" className="nav-link"><i className=" icono1 fas fa-mobile-alt"></i>Home</Link></li>
             <li className="nav-item"><Link to="/SobreMi" className="nav-link">Sobre Mi</Link></li>
             <li className="nav-item"><Link to="/Servicios" className="nav-link">Servicios</Link></li>
             <li className="nav-item"><Link to="/Proyectos" className="nav-link">Proyectos</Link></li>

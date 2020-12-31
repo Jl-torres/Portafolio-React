@@ -1,0 +1,94 @@
+.contact{
+    width: 100%;
+    height: 110px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    padding-left:30px;
+}
+
+.contenedor-conct{
+    margin-top:0px;
+}
+
+.services__item {
+    color: white;
+    
+}
+
+.contact-text { 
+    width:70%;
+    float:right;
+    color: white ; 
+    font-size: 18px; 
+    font-weight: bold ;
+    margin-top: -80px;
+    margin-right: 35px;
+    background: transparent;
+
+}
+.contact-icon{
+    width:30%;
+    background: transparent;
+
+}
+.icono {
+    background: transparent; 
+    font-size: 100px;
+    color: white;
+}
+
+
+.contact-text h4 {
+    background: transparent;
+}
+.contact-text p {
+    background: transparent;
+}
+.contact-icon2 i {
+    background: transparent;
+}
+/* Email */
+
+.contact2 {
+    width: 100%;
+    height: 130px;
+    padding-left:30px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 5px;
+}
+
+.contact-icon2{
+    background: transparent;;
+    width:30% ;
+    padding-top:15px ;
+    padding-bottom:15px;
+    margin-top:20px;
+}
+
+.contact-text2 { 
+    width:70%;
+    height: 50px;
+    float:right;
+    color: white ; 
+    font-size: 18px; 
+    font-weight: bold ;
+    margin-top: -130px;
+    margin-right: 35px;
+    padding-top:15px ;
+    padding-bottom:30px;
+    background: transparent;
+    padding: 30px;
+    line-height:5px;
+  
+}
+
+.contact-text2 h4 {
+    background: transparent;
+}
+.contact-text2 p {
+    background: transparent;
+}
+
+.contact-icon2 i {
+    background: transparent;
+}

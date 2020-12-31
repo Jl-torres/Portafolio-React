@@ -1,25 +1,26 @@
 
 .contenedor {
-  margin-top:80px;
+  height: 100%;
+  margin-top:13%;
   margin-left: 5%;
 }
 
 .subtitulo p {
   color: #fff !important;
-  font-size: 15px !important;
+  font-size: 18px !important;
     letter-spacing: 2px !important ;
     text-transform: uppercase !important;
-    margin-left:11%;
+    margin-left:6%;
     
 }
 
 h2 {
   color: #fff !important;
-  font-size: 60px !important;
+  font-size: 80px !important;
   font-weight: 700 !important;
   line-height: 70px !important;
   text-transform: uppercase !important;
-  margin-left: 10%;
+  margin-left: 5%;
  
 }
 
@@ -31,7 +32,7 @@ h2 {
 
 .btn-home{
   position: relative;
-  left: 10%;
+  left: 6%;
   top:10px;
   display: inline-block;
   padding: 15px 10px;

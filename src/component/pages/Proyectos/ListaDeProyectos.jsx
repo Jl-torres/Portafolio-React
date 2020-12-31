@@ -5,7 +5,7 @@ import Projects from './Project'
 
 const ListaDeProyectos = ( props ) => (
     <div>
-        <div className="conteiner">
+        
         <div className="row">
         {
             props.ProyectosCulminados.map(Project =>(
@@ -18,9 +18,8 @@ const ListaDeProyectos = ( props ) => (
                 />
             ))
         }
-        </div>
-        </div>
-
+        
+    </div>
         
        
     </div>
