@@ -150,9 +150,11 @@
   }
   .fa-times {
     background: transparent;
+    color:white;
   }
   .fa-bars {
     background: transparent;
+    color:white;
   }
 
   .header__nav__option{

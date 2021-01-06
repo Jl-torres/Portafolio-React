@@ -15,15 +15,15 @@ export default class TelefonosEmail extends Component {
           </div>
       <div className="contact-text">
           <h4>WhatsApp</h4>
-          <p>0424-186-9150 • 0424-186-9150</p>
+          <p>0424-186-9150</p>      
      </div>
      </div>
      <br></br>   
-        <div className="contact2">
-        <div className="contact-icon2">
+        <div className="contact">
+        <div className="contact-icon">
         <i className=" icono far fa-envelope"></i>
         </div>
-      <div className="contact-text2">
+      <div className="contact-text">
         <h4>Email</h4>
         <p>ltjosmar1997@gmail.com</p>
         <p>jltorres2014@hotmail.com</p>

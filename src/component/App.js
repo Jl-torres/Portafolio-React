@@ -13,7 +13,6 @@ import SimpleTabs from "./pages/Proyectos/Proyectos"
 import Contacto from "./pages/Contacto/Contacto"
 import Error404 from "./pages/Error404/Error404"
 //Css
-import "purecss"
 import "./App.css"
 //Imagenes
 import Logo from "./media/Logo.png" 

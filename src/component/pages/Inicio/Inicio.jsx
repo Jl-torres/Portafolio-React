@@ -25,7 +25,9 @@ export default class Inicio extends Component {
            Ver mis Proyectos</Link>
        </div>
        
-       <div className="img1 "><img src={ImgPerfil} alt="Logo" width="350px" height="200px"/></div>
+       <picture className="img1 ">
+         <img className="img-fluid " src={ImgPerfil} alt="Logo" width="500px" height="200px"/>
+      </picture >
       
       </div>
     )

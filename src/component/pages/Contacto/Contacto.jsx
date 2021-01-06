@@ -9,15 +9,15 @@ export default class Contacto extends Component {
   render () {
     return (
       <div>
-      <div className="contenedor1" id="SobreMi">
         <h3 className="titulo">Contacto</h3>
-        <div className="contenedor2">
-        <main id="main1">
+
+        <div className="contenedor-cont">
+        <main className="main1-cont">
         
         <TelefonosEmail/>
 
        </main>
-        <main id="main2"> 
+        <main className="main2-cont"> 
       
         <br></br>
         <br></br>
@@ -29,7 +29,7 @@ export default class Contacto extends Component {
         
 
         </div>
-        </div>
+        
     </div> 
            ) 
             }
