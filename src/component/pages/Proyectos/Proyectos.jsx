@@ -7,10 +7,13 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+//Css
+import "./css/tabs.css"
 //Componentes
 import AplicacionesReact from "./TipoDeProyecto/AplicacionesReact"
 import PaginasWeb from "./TipoDeProyecto/PaginasWeb" 
 import AplicacionesJs from "./TipoDeProyecto/AplicacionesJs"
+
 
    function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -63,7 +66,7 @@ export default function SimpleTabs() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="relative">
+      <AppBar className="tab" position="relative">
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" 
         indicatorColor="primary" centered  >
           <Tab label="JavaScript" {...a11yProps(0)} />

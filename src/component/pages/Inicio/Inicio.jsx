@@ -10,10 +10,11 @@ import ImgPerfil from "./media/ImgPerfil.jpg"
 export default class Inicio extends Component {
   render() {
     return (
-      <div>
-        <div className="contenedor">
+      <div className="contenedor-total">
+        
+        <div className="contenedor ">
         <div className="subtitulo">
-        <p>La Exelencia no es un Acto, es un Hàbito.</p>
+        <p>LA EXELENCIA NO ES UN ACTO, ES UN HÁBITO.</p>
         </div>
         <h2 className="gn">JOSMAR TORRES</h2>
         <Link to="/Proyectos" className="btn-home">
@@ -23,9 +24,9 @@ export default class Inicio extends Component {
         <span id="span4"></span>
            Ver mis Proyectos</Link>
        </div>
-
-       <div className="img1"><img src={ImgPerfil} alt="Logo" width="350px" height="200px"/></div>
-
+       
+       <div className="img1 "><img src={ImgPerfil} alt="Logo" width="350px" height="200px"/></div>
+      
       </div>
     )
   }

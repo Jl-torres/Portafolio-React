@@ -12,7 +12,7 @@ export default class Servicios extends Component {
      
       <div>
 
-       <h3 className="titulo mt-5">Servicios.</h3>
+       <h3 className="titulo mt-5">Servicios</h3>
    
               <div className="row">
 

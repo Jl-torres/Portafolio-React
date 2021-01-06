@@ -1,8 +1,19 @@
 
+.contenedor-total{
+  width: 80%; 
+  height: 100vh;
+  position: absolute;
+  top:0;
+  left: 10%;
+  display:flex;
+  align-items: center;
+  background: transparent;
+  z-index: 10;
+}
+
 .contenedor {
-  height: 100%;
-  margin-top:13%;
-  margin-left: 5%;
+  width: 70%;
+  
 }
 
 .subtitulo p {
@@ -26,6 +37,11 @@ h2 {
 
 #logo{
   margin-left: 5%;
+}
+
+.img1 {
+  position: relative;
+  z-index: 20;
 }
 
 /*Botones*/
@@ -118,15 +134,41 @@ h2 {
   transition-delay: 0.75s;
 }
 
-/*imagenes*/
+@media screen and (max-width: 960px) {
+  .contenedor-total{
+    position: absolute;
+    top:120px;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
-.img1 {
-  width: 25%;
-  position: relative;
-  top:-170px;
-  left:60%;
+   .subtitulo{
+     text-align: center;
+   }
+
+   .gn{
+    text-align: center;
+    font-size: 35px !important;
+    line-height:35px !important;
+    
+   }
+
+   .btn-home{
+   width: 80%;
+   text-align: center;
+   margin-left:5%;
+    }
+
+   .img1{  
+     margin-top:30px;
+     z-index: 30;  
+   }
+
 }
-
 
 
 
