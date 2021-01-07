@@ -1,6 +1,8 @@
 import React from 'react'
 //Css
 import "./css/Tecnologia.css"
+//React Router
+import {Link} from "react-router-dom";
 //imagenes
 import Wordpress from "../../media/wordpress.png"
 
@@ -14,16 +16,14 @@ const Projects = (props) => (
           <img src={Wordpress} alt="Logo" width="100%" height="180px"/>
           <div className="capa">
            <h3>{props.titulo}</h3>
-           
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-             Nihil non aliquam magni tenetur impedit!</p>
+             <p>{props.tecnologias}</p>
           </div>
           </figure>
           </div>
 
           <div className="card-body">
             <p>{props.Contenido}</p>
-          <a href="#" className="btn btn-pt btn-primary">Ver Codigo</a>
+            <Link to={props.links} className="btn btn-pt btn-primary">{props.boton}</Link>
           </div>
                
            </div>

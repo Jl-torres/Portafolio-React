@@ -2,14 +2,14 @@
 {
    "tecnologias": [
        {   "id":0 ,
-           "titulo":"HTML",
+           "titulo":"Html",
            "imagen":"./tecnologias/html.png"
             
        },
 
        {
         "id":1,  
-        "titulo":"CSS",
+        "titulo":"Css",
         "imagen":"./tecnologias/css.png" 
     },
 
@@ -17,7 +17,31 @@
         "id":2,
         "titulo":"Javascript",
         "imagen":"./tecnologias/Js.png"  
-    }
+    } ,
+
+    {   "id":3 ,
+        "titulo":"Jquery",
+        "imagen":"./tecnologias/Jquery.png"
+         
+    },
+
+    {
+     "id":4,  
+     "titulo":"Wordpress",
+     "imagen":"./tecnologias/wordpress.png" 
+ },
+
+ {
+     "id":5,
+     "titulo":"bootstrap",
+     "imagen":"./tecnologias/bootstrap.png"  
+ }
+   ,
+ {
+    "id":6,
+    "titulo":"Git",
+    "imagen":"./tecnologias/Git.png"  
+}
     
    ]
 }

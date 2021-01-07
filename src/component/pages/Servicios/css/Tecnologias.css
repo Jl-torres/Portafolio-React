@@ -1,7 +1,7 @@
 
 
 .carta {
-   
+
     position: relative;
     overflow: hidden;
 }
@@ -11,7 +11,7 @@
     content: '';
     width: 80%;
     height: 220%;
-    background: rgb(0,191,231,0.7);
+    background: rgb(0,0,0,0.5);
     top:-50%;
     left:-100%;
     z-index:30;

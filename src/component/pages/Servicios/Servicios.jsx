@@ -16,37 +16,30 @@ export default class Servicios extends Component {
    
               <div className="row">
 
-                <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="col-lg-6 col-md-6 col-sm-6">
                    
                      <ServCards
                      titulo="Diseño Web"
-                     contenido="Se crean paginas web a tu medida usando tecnologias como HTML, CSS y Javascrip."
+                     contenido="Desarrollo de paginas web a tu medida usando tecnologias como HTML, CSS , 
+                     Javascrip, entre otros."
                      icono = {<i className=" icono1 fas fa-laptop-code"></i> }                  
                      />
                     
               </div>
             
-                <div className="col-lg-4 col-md-6 col-sm-6">    
+                <div className="col-lg-6 col-md-6 col-sm-6">    
                      
                       <ServCards
-                      titulo="Full Responsive"
-                      contenido="Podras ver tu sitio web desde cualquier dispositivo, incluyendo computadoras tablets y telefonos
-                      inteligentes."
-                      icono = {<i className=" icono1 fas fa-tablet-alt"></i> } 
+                      titulo="Desarrollo de Aplicaciones Frontend"
+                      contenido="Mantenimiento y optimizacion de sitios web.
+                      Creacion de herramientas y elementos que mejoren la interacción 
+                      con el sitio en cualquier dispositivo. "
+                
+                      icono = {<i class=" icono1 fas fa-code"></i>} 
                       />
                       
                 </div>
                 
-                <div className="col-lg-4 col-md-6 col-sm-6">
-                   
-                      <ServCards
-                      titulo="Aplicaciones moviles"
-                      contenido="Desarrollo de aplicaciones que permitan al cliente realizar actividades profesionales por medio de  
-                      telefonos inteligentes."
-                      icono = {<i className=" icono1 fas fa-mobile-alt"></i>} 
-                      />
-
-                </div>
 
                 </div>
 

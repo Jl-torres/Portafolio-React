@@ -16,11 +16,11 @@ class PaginasWeb extends Component {
    
     render () {
          return (
-         <div>
+            <div>
                 
              <ListaDeProyectos ProyectosCulminados={this.state.paginasWeb} />
 
-         </div>
+            </div>
          
 
          )

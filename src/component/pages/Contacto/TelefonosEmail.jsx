@@ -15,7 +15,8 @@ export default class TelefonosEmail extends Component {
           </div>
       <div className="contact-text">
           <h4>WhatsApp</h4>
-          <p>0424-186-9150</p>      
+          <p></p> 
+          <p>0424-186-9150</p>     
      </div>
      </div>
      <br></br>   

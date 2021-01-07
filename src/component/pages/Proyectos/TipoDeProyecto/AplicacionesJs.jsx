@@ -3,6 +3,8 @@ import React, {Component} from 'react'
 import {JavaScript} from "../data/aplicaciones-js.json"
 //Componentes
 import ListaDeProyectos from "../ListaDeProyectos"
+//Material-UI
+
 
 class AplicacionesJs extends Component {
     constructor(...props) {
@@ -16,11 +18,12 @@ class AplicacionesJs extends Component {
    
     render () {
          return (
-         <div>
+             
+            <div>
                 
              <ListaDeProyectos ProyectosCulminados={this.state.JavaScript} />
 
-         </div>
+             </div>
          
 
          )

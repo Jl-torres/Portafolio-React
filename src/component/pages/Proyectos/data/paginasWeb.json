@@ -3,36 +3,31 @@
         {   "id":0 ,
             "titulo":"cleanability Restoration",
             "Contenido": "Rediseño de la pagina web",
-            "imagen":"./proyectosCulminados/cleanability.jpeg"
-             
+            "imagen":"./proyectosCulminados/cleanability.jpeg",
+            "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
+            "links":"https://www.cleanabilityrestoration.com/",
+            "boton":"Ver pagina Web"
         },
  
         {
          "id":1,  
          "titulo":"egodoy realtor.",
          "Contenido": "Creacion de una pagina web de ventas inmobiliarias",
-         "imagen":"./proyectosCulminados/cleanability.jpeg" 
+         "imagen":"./proyectosCulminados/cleanability.jpeg", 
+         "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
+         "links":"#",
+         "boton":"Ver pagina Web"
      },
  
      {
          "id":2,
          "titulo":"Aprende Facil",
          "Contenido": "Creacion de una pagina web de Cursos Online",
-         "imagen":"./tecnologias/Js.png"  
-     },
-     {
-        "id":3,
-        "titulo":"Aprende Facil",
-        "Contenido": "Creacion de una pagina web de Cursos Online",
-        "imagen":"./tecnologias/Js.png"  
-    },
-
-     {
-        "id":4,
-        "titulo":"egodoy realtor.",
-         "Contenido": "Creacion de una pagina web de ventas inmobiliarias",
-         "imagen":"./proyectosCulminados/cleanability.jpeg"  
-    }
-     
+         "imagen":"./tecnologias/Js.png", 
+         "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
+         "links":"#",
+         "boton":"Ver pagina Web"
+     }
+      
     ]
  }

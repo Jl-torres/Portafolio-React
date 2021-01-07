@@ -74,7 +74,32 @@ export default function SimpleTabs() {
           <Tab label="Paginas Web" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
+      
       <TabPanel value={value} index={0}>
+       
+       <AplicacionesJs/>
+       
+      </TabPanel>
+ 
+       <TabPanel value={value} index={1}>
+         
+         <AplicacionesReact/>
+         
+       </TabPanel>
+ 
+       <TabPanel value={value} index={2}>
+ 
+         <PaginasWeb/>
+ 
+       </TabPanel>
+
+      
+    </div>
+  );
+}
+
+/*
+ <TabPanel value={value} index={0}>
        
       <AplicacionesJs/>
       
@@ -90,12 +115,7 @@ export default function SimpleTabs() {
 
         <PaginasWeb/>
 
-      </TabPanel>
-    </div>
-  );
-}
-
-
+      </TabPanel> */
 
 
 

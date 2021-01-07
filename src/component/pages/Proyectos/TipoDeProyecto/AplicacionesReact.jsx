@@ -3,6 +3,8 @@ import React, {Component} from 'react'
 import {AppReact} from "../data/aplicaciones-react.json"
 //Componentes
 import ListaDeProyectos from "../ListaDeProyectos"
+//Material-UI
+
 
 class AplicacionesReact extends Component {
     constructor(...props) {
@@ -16,7 +18,7 @@ class AplicacionesReact extends Component {
    
     render () {
          return (
-         <div>
+            <div>
                 
              <ListaDeProyectos ProyectosCulminados={this.state.AppReact} />
 

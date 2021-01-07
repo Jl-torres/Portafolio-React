@@ -3,15 +3,12 @@
         {   "id":0 ,
             "titulo":"Portafolio",
             "Contenido": "Creacion de aplicacion web para muestras de proyectos culminados",
-            "imagen":"./proyectosCulminados/cleanability.jpeg"
+            "imagen":"./proyectosCulminados/cleanability.jpeg",
+            "tecnologias":"",
+            "links":"#",
+            "boton":"Ver Codigo"
              
-        }   ,
-        
-        {   "id":2 ,
-            "titulo":"Proyecto 2",
-            "Contenido": "Creacion de una aplicacion web",
-            "imagen":"./proyectosCulminados/cleanability.jpeg"
-             
-        } 
+        }   
+    
     ]
  }

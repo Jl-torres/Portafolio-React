@@ -2,6 +2,7 @@
 .contenedor-cont {
     display: flex;
     margin-top:30px;
+    padding-bottom: 50px;
 }
 
 .main1-cont {

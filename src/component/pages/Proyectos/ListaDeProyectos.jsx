@@ -15,6 +15,9 @@ const ListaDeProyectos = ( props ) => (
                   id={Project.id}
                   titulo={Project.titulo}
                   Contenido={Project.Contenido}
+                  tecnologias={Project.tecnologias}
+                  links={Project.links}
+                  boton={Project.boton}
                 />
             ))
         }

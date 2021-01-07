@@ -32,6 +32,7 @@ export default class Tecnologias extends Component {
          <h4>{tecnologias.titulo}</h4>
 
         </div>
+        
         </div>
   
         </div> 
