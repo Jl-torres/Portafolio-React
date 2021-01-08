@@ -4,7 +4,7 @@
             "titulo":"Portafolio",
             "Contenido": "Creacion de aplicacion web para muestras de proyectos culminados",
             "imagen":"./proyectosCulminados/cleanability.jpeg",
-            "tecnologias":"",
+            "tecnologias":"Tecnologias usadas: React, Javascript, Css, Bootstrap, Git. ",
             "links":"#",
             "boton":"Ver Codigo"
              

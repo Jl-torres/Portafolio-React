@@ -9,8 +9,7 @@
  .centrar{
      display:flex;
      justify-content: center;
-     
- }
+     }
  
  
  /*Botones*/
@@ -137,13 +136,17 @@
     width: 80%;
     text-align: center;
     margin-left:5%;
+   
      }
  
     .img1{  
       margin:30px auto 0 auto;
       padding: 0 30px;
       z-index: 30;
- 
+    }
+
+    .boton {
+      padding-bottom: 40px;
     }
  
  }

@@ -41,6 +41,18 @@
     "id":6,
     "titulo":"Git",
     "imagen":"./tecnologias/Git.png"  
+} ,
+
+{
+    "id":7,
+    "titulo":"React",
+    "imagen":"./tecnologias/react.png"  
+}
+  ,
+{
+   "id":8,
+   "titulo":"Firebase",
+   "imagen":"./tecnologias/firebase.png"  
 }
     
    ]

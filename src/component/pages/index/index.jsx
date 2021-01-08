@@ -19,7 +19,7 @@ export default class Home extends Component {
         <div className="subtitulo">
         <p>LA EXELENCIA NO ES UN ACTO, ES UN HÁBITO.</p>
         </div>
-        <div className="centrar">
+        <div className="centrar boton">
         <Link to="/Proyectos" className="btn-home">
         <span id="span1"></span>
         <span id="span2"></span>
@@ -36,3 +36,4 @@ export default class Home extends Component {
   }
 
 }
+
