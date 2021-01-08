@@ -1,8 +1,6 @@
 import React from 'react'
 //Css
 import "./css/Tecnologia.css"
-//React Router
-import {Link} from "react-router-dom";
 //imagenes
 import Wordpress from "../../media/wordpress.png"
 
@@ -23,7 +21,7 @@ const Projects = (props) => (
 
           <div className="card-body">
             <p>{props.Contenido}</p>
-            <Link to={props.links} className="btn btn-pt btn-primary">{props.boton}</Link>
+            <a href={props.links} target="blank" className="btn btn-pt btn-primary">{props.boton}</a>
           </div>
                
            </div>

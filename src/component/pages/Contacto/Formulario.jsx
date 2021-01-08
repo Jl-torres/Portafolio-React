@@ -1,37 +1,28 @@
-import React, {Component, Fragment, useState} from 'react'
+import React, {Fragment,} from 'react'
 //Css
 import "./Css/Formulario.css"
-//React hook Form
-//import {useForm} from 'react-hook-form'
-//enviar formulario por metodo POST
+//emailjs
+import emailjs from "emailjs-com"
 
 const Formulario = () => {
    
-  const [datos, setDatos]  =  useState ({
-        
-    nombre:'',
-    telefono: '' ,
-    email: '' ,     
-
-})
-
-const handleInputChange = (event) => {
   
-  setDatos({
-    ...datos,
-    [event.target.name]: event.target.value
-  })
-} 
+function sendEmail(e) {
+  e.preventDefault();
 
-const enviarDatos= (event) => {
-  event.preventDefault();
-  console.log (datos.nombre + ' '  + datos.telefono + ' ' + datos.email)
+  emailjs.sendForm('gmail', 'portafolio', e.target, 'user_w6L3YlQlQAQlUSAfNEjC0')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset()
 }
 
 return (
   
      <Fragment>
-     <form className="formulario"  onSubmit={enviarDatos}>
+     <form className="formulario"  onSubmit={sendEmail}>
        <h4 className="titulo-fm">¿Como puedo ayudarte?</h4>
        <div className="casilla">
          <input 
@@ -39,7 +30,7 @@ return (
           className="form-control"
           type="text"
           name="nombre"
-          onChange={handleInputChange}
+          
          />
        </div>
        <br></br>
@@ -48,7 +39,7 @@ return (
           className="form-control"
           type="number"
           name="telefono"
-          onChange={handleInputChange}
+          
          />
       </div>
       <br></br>
@@ -57,7 +48,7 @@ return (
           className="form-control"
           type="email"
           name="email"
-          onChange={handleInputChange}
+          
          />
       </div>
       <br></br>

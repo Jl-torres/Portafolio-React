@@ -35,7 +35,7 @@ export default class Servicios extends Component {
                       Creacion de herramientas y elementos que mejoren la interacción 
                       con el sitio en cualquier dispositivo. "
                 
-                      icono = {<i class=" icono1 fas fa-code"></i>} 
+                      icono = {<i className=" icono1 fas fa-code"></i>} 
                       />
                       
                 </div>
