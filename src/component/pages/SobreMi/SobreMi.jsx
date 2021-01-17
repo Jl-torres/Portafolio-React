@@ -1,10 +1,8 @@
 import React, {Component} from 'react'
-//React Router
-import {Link} from "react-router-dom";
 //css
 import "./css/SobreMi.css"
 //Imagenes
-import ImgPerfil from "../index/media/ImgPerfil.jpg" 
+import JosmarFoto from "../index/media/JosmarFoto.png" 
 
 
 export default class SobreMi extends Component {
@@ -16,7 +14,7 @@ export default class SobreMi extends Component {
           <div className="contenedor2-sb">
           <main id="main1" className="main1-sm" >
         
-          <img className="img-fluid " src={ImgPerfil} alt="Logo" width="100%" height="350px" />
+          <img className="img-fluid " src={JosmarFoto} alt="Logo" width="100%" />
         
          </main>
           
@@ -31,12 +29,22 @@ export default class SobreMi extends Component {
          
          <div className="boton-SobreMi">
 
-          <Link to="/Proyectos" className="btn-SobreMi">
+          <a href="https://www.linkedin.com/in/josmar-torres-desarrollador-frontend/" 
+          className="btn-SobreMi" target="blank">
         <span id="span1"></span>
         <span id="span2"></span>
         <span id="span3"></span>
         <span id="span4"></span>
-           <i className="icono-Sm fab fa-linkedin-in"></i> Linkedin  </Link>
+           <i className="icono-Sm fab fa-linkedin-in"></i> Linkedin  </a>
+        </div>
+        <div className="boton-SobreMi2">
+           <a href="https://www.linkedin.com/in/josmar-torres-desarrollador-frontend/" 
+          className="btn-SobreMi" target="blank">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+           <i className="icono-Sm fab fa-linkedin-in"></i> curriculum  </a>
        </div>
          </main> 
          

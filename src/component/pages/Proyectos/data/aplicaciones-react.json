@@ -2,10 +2,10 @@
     "AppReact": [
         {   "id":0 ,
             "titulo":"Portafolio",
-            "Contenido": "Creacion de aplicacion web para muestras de proyectos culminados",
-            "imagen":"./proyectosCulminados/cleanability.jpeg",
+            "Contenido": "Desarrollo de portafolio profesional usando el framework de React.",
+            "imagen":"./imgProyectos/react/portafolio.png",
             "tecnologias":"Tecnologias usadas: React, Javascript, Css, Bootstrap, Git. ",
-            "links":"#",
+            "links":"https://github.com/Jl-torres/Portafolio-React",
             "boton":"Ver Codigo"
              
         }   

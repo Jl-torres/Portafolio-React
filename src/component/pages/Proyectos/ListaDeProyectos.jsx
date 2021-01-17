@@ -18,6 +18,7 @@ const ListaDeProyectos = ( props ) => (
                   tecnologias={Project.tecnologias}
                   links={Project.links}
                   boton={Project.boton}
+                  imagen={Project.imagen}
                 />
             ))
         }

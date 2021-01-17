@@ -18,7 +18,8 @@
 .contenedor2-sb #main1 {
     color:white;
     text-align: center;
-    width: 40%;   
+    width: 40%;  
+    margin-top:-100px; 
 }
 
 
@@ -36,10 +37,6 @@
       
 }
 
-.imgSobreMi {
-    padding: 15px 10%;
-    
-}
 
 .icono-Sm{
     background:transparent;
@@ -68,7 +65,8 @@
   }
 
   .contenedor2-sb #main1 {
-    width: 60%;   
+    width: 60%; 
+    margin-top:0;  
 }
 
   .contenedor2-sb #main2{
@@ -89,6 +87,12 @@
    text-align: center;
    margin-left:20%;
  }
+
+ .main1-sm img{
+  margin-left: 0;
+}
+
+
 
 }
 

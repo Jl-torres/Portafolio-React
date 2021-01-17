@@ -1,11 +1,11 @@
 {
     "JavaScript": [
         {   "id":0 ,
-            "titulo":"Sin titulo aun",
-            "Contenido": "Sin Proyecto aun",
-            "imagen":"./proyectosCulminados/cleanability.jpeg",
-            "tecnologias":"",
-            "links":"",
+            "titulo":"Portafolio Luis",
+            "Contenido": "Portafolio de Trabajo para Consultor ERP Y CRM",
+            "imagen":"./imgProyectos/JavasCript/portafolioLuis.png",
+            "tecnologias":"Tecnologias usadas: Html, Css, Javascript, Git",
+            "links":"https://github.com/Jl-torres/Portafolio-Luis",
             "boton":"Ver Codigo"
         }     
     ]

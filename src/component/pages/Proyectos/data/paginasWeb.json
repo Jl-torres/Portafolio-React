@@ -3,9 +3,9 @@
         {   "id":0 ,
             "titulo":"cleanability Restoration",
             "Contenido": "Rediseño de la pagina web",
-            "imagen":"./proyectosCulminados/cleanability.jpeg",
+            "imagen":"./imgProyectos/paginasWeb/cleanability.png",
             "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
-            "links":"https://www.cleanabilityrestoration.com/",
+            "links":"https://cleanability.olahagency.com",
             "boton":"Ver pagina Web"
         },
  
@@ -13,9 +13,9 @@
          "id":1,  
          "titulo":"egodoy realtor.",
          "Contenido": "Creacion de una pagina web de ventas inmobiliarias",
-         "imagen":"./proyectosCulminados/cleanability.jpeg", 
+         "imagen":"./imgProyectos/paginasWeb/eveling.PNG", 
          "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
-         "links":"#",
+         "links":"http://egodoyrealtor.com/",
          "boton":"Ver pagina Web"
      },
  
@@ -23,11 +23,21 @@
          "id":2,
          "titulo":"Aprende Facil",
          "Contenido": "Creacion de una pagina web de Cursos Online",
-         "imagen":"./tecnologias/Js.png", 
+         "imagen":"./imgProyectos/paginasWeb/aprendeFacil.png", 
          "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
-         "links":"#",
+         "links":"https://aprendefacil.site/",
          "boton":"Ver pagina Web"
-     }
+     } ,
+
+     {
+        "id":3,
+        "titulo":"Bazar Tendencia",
+        "Contenido": "Creacion de una pagina web de Cursos Online",
+        "imagen":"./imgProyectos/paginasWeb/bazartendencia.png", 
+        "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
+        "links":"https://www.bazartendencia.com/",
+        "boton":"Ver pagina Web"
+    }
       
     ]
  }

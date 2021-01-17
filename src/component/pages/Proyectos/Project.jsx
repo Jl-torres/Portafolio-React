@@ -11,7 +11,7 @@ const Projects = (props) => (
 
           <div className="card-header">
           <figure className="card-header">  
-          <img src={Wordpress} alt="Logo" width="100%" height="180px"/>
+          <img src={props.imagen} alt="Logo" width="100%" height="180px"/>
           <div className="capa">
            <h3>{props.titulo}</h3>
              <p>{props.tecnologias}</p>
