@@ -10,7 +10,7 @@ export default class SobreMi extends Component {
     return (
       <div>
         <div className="contenedor1" id="SobreMi">
-          <h3 className="titulo">Sobre Mi.</h3>
+          
           <div className="contenedor2-sb">
           <main id="main1" className="main1-sm" >
         
@@ -19,6 +19,7 @@ export default class SobreMi extends Component {
          </main>
           
           <main id="main2" className="main2-sm"> 
+          <h3 className="titulo">Sobre Mi.</h3>
           <br></br>
           <p>Mi nombre es Josmar Leonardo Torres, programador Frontend Junior, soy de Venezuela, 
            mi formacion en el área de la informatica es totalmente autodidacta, cada proyecto es un nuevo reto para aprender 
@@ -39,7 +40,7 @@ export default class SobreMi extends Component {
         </div>
         <div className="boton-SobreMi2">
            <a href="https://www.linkedin.com/in/josmar-torres-desarrollador-frontend/" 
-          className="btn-SobreMi" target="blank">
+          className="btn-SobreMi bt2" target="blank">
         <span id="span1"></span>
         <span id="span2"></span>
         <span id="span3"></span>

@@ -2,7 +2,7 @@
     "paginasWeb": [
         {   "id":0 ,
             "titulo":"cleanability Restoration",
-            "Contenido": "Rediseño de la pagina web",
+            "Contenido": "Rediseño de pagina web",
             "imagen":"./imgProyectos/paginasWeb/cleanability.png",
             "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
             "links":"https://cleanability.olahagency.com",
@@ -32,7 +32,7 @@
      {
         "id":3,
         "titulo":"Bazar Tendencia",
-        "Contenido": "Creacion de una pagina web de Cursos Online",
+        "Contenido": "Creacion de un Bazar web.",
         "imagen":"./imgProyectos/paginasWeb/bazartendencia.png", 
         "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
         "links":"https://www.bazartendencia.com/",
