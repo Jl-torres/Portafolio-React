@@ -10,7 +10,7 @@ const Formulario = () => {
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs.sendForm('gmail', 'portafolio', e.target, 'user_w6L3YlQlQAQlUSAfNEjC0')
+  emailjs.sendForm('portafolio', 'template_dfzcsrf', e.target, 'user_w6L3YlQlQAQlUSAfNEjC0')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
