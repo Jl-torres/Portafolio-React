@@ -6,6 +6,8 @@
 }
 .contenedor1 {
     height: 100vh;
+    display: flex;
+    align-items: center;
     position: relative;
     padding:5% 5%;
 }
@@ -13,13 +15,15 @@
 .contenedor2-sb{
     display:flex;
     flex-direction: row;
+  
 
 }
 
 .contenedor2-sb #main1 {
     color:white;
     text-align: center;
-    width: 40%;  
+    width: 40%; 
+    
    
 }
 
@@ -27,8 +31,10 @@
 .contenedor2-sb #main2 {
     color:white;
     text-align: justify;
+    
     width: 60%;
-    margin: 0 40px;    
+    margin: 30px 0 0 40px;  
+   
 }
 
 .contenedor2-sb main p {

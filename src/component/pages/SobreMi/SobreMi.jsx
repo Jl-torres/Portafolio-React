@@ -3,6 +3,8 @@ import React, {Component} from 'react'
 import "./css/SobreMi.css"
 //Imagenes
 import JosmarFoto from "../index/media/JosmarFoto.png" 
+//PDF
+import JosmarCv from "./JosmarCv.pdf"
 
 
 export default class SobreMi extends Component {
@@ -39,13 +41,13 @@ export default class SobreMi extends Component {
            <i className="icono-Sm fab fa-linkedin-in"></i> Linkedin  </a>
         </div>
         <div className="boton-SobreMi2">
-           <a href="https://www.linkedin.com/in/josmar-torres-desarrollador-frontend/" 
+           <a href={JosmarCv} 
           className="btn-SobreMi bt2" target="blank">
         <span id="span1"></span>
         <span id="span2"></span>
         <span id="span3"></span>
         <span id="span4"></span>
-           <i className="icono-Sm fab fa-linkedin-in"></i> curriculum  </a>
+        <i className="icono-Sm far fa-address-card"></i> curriculum  </a>
        </div>
          </main> 
          
