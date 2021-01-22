@@ -13,10 +13,13 @@ function sendEmail(e) {
   emailjs.sendForm('portafolio', 'template_dfzcsrf', e.target, 'user_w6L3YlQlQAQlUSAfNEjC0')
     .then((result) => {
         console.log(result.text);
-    }, (error) => {
+        alert('Su mensaje fue Enviado')
+     }, (error) => {
         console.log(error.text);
+        alert('Error de envio. Porfavor intente de nuevo')
     });
-    e.target.reset()
+    e.target.reset();
+    
 }
 
 return (

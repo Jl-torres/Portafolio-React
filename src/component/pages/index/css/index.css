@@ -11,7 +11,9 @@
      justify-content: center;
      }
  
- 
+ .contenedor{
+   height: 100vh;
+ }
  /*Botones*/
  
  .btn-home{
@@ -118,7 +120,8 @@
  
    .contenedor {
      justify-content: center;
-     margin:0 auto;
+     height: 100px;
+     margin:50px auto;
    }
  
     .subtitulo{
@@ -147,6 +150,10 @@
 
     .boton {
       padding-bottom: 40px;
+    }
+
+    .img-home{
+     width: 50%;
     }
  
  }

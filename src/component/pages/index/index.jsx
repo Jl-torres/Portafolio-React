@@ -10,14 +10,14 @@ import logoInicio from "./media/logoInicio.png"
 export default class Home extends Component {
   render() {
     return (    
-        <div className="contenedor row align-items-center justify-content-center vh-100 ">
+        <div className="contenedor row align-items-center justify-content-center">
          <div className="col-sm-12 contenido"> 
          <div className="centrar">
-         <img className="img-fluid" src={logoInicio} alt="Logo" width="350px"/>
+         <img className="img-fluid img-home" src={logoInicio} alt="Logo" width="350px"/>
          </div>
 
         <div className="subtitulo">
-        <p>LA EXELENCIA NO ES UN ACTO, ES UN HÁBITO.</p>
+        <p>LA EXCELENCIA NO ES UN ACTO, ES UN HÁBITO.</p>
         </div>
         <div className="centrar boton">
         <Link to="/Proyectos" className="btn-home">

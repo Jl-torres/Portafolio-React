@@ -1,8 +1,7 @@
 import React from 'react'
 //Css
 import "./css/Tecnologia.css"
-//imagenes
-import Wordpress from "../../media/wordpress.png"
+
 
 const Projects = (props) => (
          
@@ -22,6 +21,7 @@ const Projects = (props) => (
           <div className="card-body">
             <p>{props.Contenido}</p>
             <a href={props.links} target="blank" className="btn btn-pt btn-primary">{props.boton}</a>
+            
           </div>
                
            </div>

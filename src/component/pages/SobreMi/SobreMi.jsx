@@ -16,7 +16,7 @@ export default class SobreMi extends Component {
           <div className="contenedor2-sb">
           <main id="main1" className="main1-sm" >
         
-          <img className="img-fluid " src={JosmarFoto} alt="Logo" width="100%" />
+          <img className="img-fluid img-Sm" src={JosmarFoto} alt="Logo" width="100%" />
         
          </main>
           
