@@ -6,6 +6,7 @@
             "imagen":"./imgProyectos/paginasWeb/cleanability.png",
             "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
             "links":"https://cleanability.olahagency.com",
+            "links2Class": "btn btn-pt btn-primary btn2 ocultar" ,
             "boton":"Ver pagina Web"
         },
  
@@ -16,6 +17,7 @@
          "imagen":"./imgProyectos/paginasWeb/eveling.PNG", 
          "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
          "links":"http://egodoyrealtor.com/",
+         "links2Class": "btn btn-pt btn-primary btn2 ocultar" ,
          "boton":"Ver pagina Web"
      },
  
@@ -26,6 +28,7 @@
          "imagen":"./imgProyectos/paginasWeb/aprendeFacil.png", 
          "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
          "links":"https://aprendefacil.site/",
+         "links2Class": "btn btn-pt btn-primary btn2 ocultar" ,
          "boton":"Ver pagina Web"
      } ,
 
@@ -36,6 +39,7 @@
         "imagen":"./imgProyectos/paginasWeb/bazartendencia.png", 
         "tecnologias":"Tecnologias Usadas: wordpress, Html, Css.",
         "links":"https://www.bazartendencia.com/",
+        "links2Class": "btn btn-pt btn-primary btn2 ocultar" ,
         "boton":"Ver pagina Web"
     }
       

@@ -6,6 +6,8 @@
             "imagen":"./imgProyectos/react/portafolio.png",
             "tecnologias":"Tecnologias usadas: React, Javascript, Css, Bootstrap, Git. ",
             "links":"https://github.com/Jl-torres/Portafolio-React",
+            "links2":"https://jltorres.olahagency.com",
+            "links2Class": "btn btn-pt2 btn-primary btn2" ,
             "boton":"Ver Codigo"
        }   
           ,
@@ -15,6 +17,8 @@
         "imagen":"./imgProyectos/react/citas.png",
         "tecnologias":"Tecnologias usadas: React, Javascript, Css, Git. ",
         "links":"https://github.com/Jl-torres/citas",
+        "links2":"https://jl-torres.github.io/citas/",
+        "links2Class": "btn btn-pt2 btn-primary btn2" ,
         "boton":"Ver Codigo"
    }   ,
     
@@ -24,6 +28,8 @@
     "imagen":"./imgProyectos/react/ControlPresupuesto.png",
     "tecnologias":"Tecnologias usadas: React, Javascript, Css, skeleton, Git. ",
     "links":"https://github.com/Jl-torres/Control-de-Presupuesto",
+    "links2":"https://jl-torres.github.io/Control-de-Presupuesto/",
+    "links2Class": "btn btn-pt2 btn-primary btn2" ,
     "boton":"Ver Codigo"
 }   
 

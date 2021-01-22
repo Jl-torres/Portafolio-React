@@ -20,8 +20,9 @@ const Projects = (props) => (
 
           <div className="card-body">
             <p>{props.Contenido}</p>
-            <a href={props.links} target="blank" className="btn btn-pt btn-primary">{props.boton}</a>
             
+            <a href={props.links} target="blank" className="btn btn-pt btn-primary">{props.boton}</a>
+            <a href={props.links2} target="blank" className={props.links2Class}>Ver Aplicacion</a>
           </div>
                
            </div>
