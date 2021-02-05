@@ -22,7 +22,7 @@
         }  ,
         {   "id":2 ,
             "titulo":"Generador de Claves",
-            "Contenido": "Ejercicio de programacion para generar claves de forma alearotia",
+            "Contenido": "Ejercicio de programacion para generar claves de forma aleatoria",
             "imagen":"./imgProyectos/JavasCript/generadorDeClaves.png",
             "tecnologias":"Tecnologias usadas: Html, Css, Javascript, Git",
             "links":"https://github.com/Jl-torres/Generador-de-claves",

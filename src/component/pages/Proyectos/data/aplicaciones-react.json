@@ -7,7 +7,7 @@
             "tecnologias":"Tecnologias usadas: React, Javascript, Css, Bootstrap, Git. ",
             "links":"https://github.com/Jl-torres/Portafolio-React",
             "links2":"https://jltorres.olahagency.com",
-            "links2Class": "btn btn-pt2 btn-primary btn2" ,
+            "links2Class": "btn btn-pt2 btn-primary btn2 ocultar" ,
             "boton":"Ver Codigo"
        }   
           ,
@@ -29,6 +29,17 @@
     "tecnologias":"Tecnologias usadas: React, Javascript, Css, skeleton, Git. ",
     "links":"https://github.com/Jl-torres/Control-de-Presupuesto",
     "links2":"https://jl-torres.github.io/Control-de-Presupuesto/",
+    "links2Class": "btn btn-pt2 btn-primary btn2" ,
+    "boton":"Ver Codigo"
+}   ,
+
+{   "id":3 ,
+    "titulo":"Aplicacion del Clima",
+    "Contenido": "Desarrollo de una aplicacion para consultar el clima desde una Appi.",
+    "imagen":"./imgProyectos/react/appClima.png",
+    "tecnologias":"Tecnologias usadas: React, Javascript, Css, Git. ",
+    "links":"https://github.com/Jl-torres/App-Clima",
+    "links2":"https://jl-torres.github.io/App-Clima/",
     "links2Class": "btn btn-pt2 btn-primary btn2" ,
     "boton":"Ver Codigo"
 }   

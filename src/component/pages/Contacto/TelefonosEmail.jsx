@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 //Css
 import "./Css/TelefonosEmail.css"
+import CorreoJl from "./media/correoJl.png"
 
 
 export default class TelefonosEmail extends Component {
@@ -26,8 +27,7 @@ export default class TelefonosEmail extends Component {
         </div>
       <div className="contact-text">
         <h4>Email</h4>
-        <p>ltjosmar1997@gmail.com</p>
-        <p>jltorres2014@hotmail.com</p>
+        <img className="img-fluid" src={CorreoJl} alt="Logo" width="65%" />
        </div>
        </div>
          
