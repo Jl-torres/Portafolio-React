@@ -42,6 +42,17 @@
     "links2":"https://jl-torres.github.io/App-Clima/",
     "links2Class": "btn btn-pt2 btn-primary btn2" ,
     "boton":"Ver Codigo"
+}   ,
+
+{   "id":4 ,
+    "titulo":"Hotel Gatsby",
+    "Contenido": "Realizacion de un sitio web usando gatsby, toda la información de la pagina proviene de un framework llamado DatoCMS.",
+    "imagen":"./imgProyectos/react/HotelGatsby.png",
+    "tecnologias":"Tecnologias usadas: React, Gatsby, DatoCMS, Javascript, Css, Git. ",
+    "links":"https://github.com/Jl-torres/gatsbyHotel",
+    "links2":"https://jl-torres.github.io/gatsbyHotel/",
+    "links2Class": "btn btn-pt2 btn-primary btn2" ,
+    "boton":"Ver Codigo"
 }   
 
     ]
