@@ -51,9 +51,15 @@
   ,
 {
    "id":8,
-   "titulo":"Firebase",
-   "imagen":"./tecnologias/firebase.png"  
-}
+   "titulo":"Angular",
+   "imagen":"./tecnologias/angular.png"  
+},
+
+{
+    "id":9,
+    "titulo":"Firebase",
+    "imagen":"./tecnologias/firebase.png"  
+ }
     
    ]
 }

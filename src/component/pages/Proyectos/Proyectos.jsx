@@ -69,7 +69,7 @@ export default function SimpleTabs() {
       <AppBar className="tab" position="relative">
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" 
         indicatorColor="primary" centered  >
-          <Tab label="JavaScript" {...a11yProps(0)} />
+          <Tab label="Angular" {...a11yProps(0)} />
           <Tab label="React" {...a11yProps(1)} />
           <Tab label="Paginas Web" {...a11yProps(2)} />
         </Tabs>

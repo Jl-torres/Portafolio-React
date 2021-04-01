@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 //json
-import {JavaScript} from "../data/aplicaciones-js.json"
+import {Angular} from "../data/aplicaciones-js.json"
 //Componentes
 import ListaDeProyectos from "../ListaDeProyectos"
 //Material-UI
@@ -11,7 +11,7 @@ class AplicacionesJs extends Component {
         super (...props)
 
         this.state= {
-            JavaScript: JavaScript
+            Angular: Angular
         }
 
     }
@@ -21,7 +21,7 @@ class AplicacionesJs extends Component {
              
             <div>
                 
-             <ListaDeProyectos ProyectosCulminados={this.state.JavaScript} />
+             <ListaDeProyectos ProyectosCulminados={this.state.Angular} />
 
              </div>
          

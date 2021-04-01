@@ -41,7 +41,38 @@
         "links":"https://www.bazartendencia.com/",
         "links2Class": "btn btn-pt btn-primary btn2 ocultar" ,
         "boton":"Ver pagina Web"
-    }
+    },
+
+    {   "id":4 ,
+        "titulo":"Portafolio Luis",
+        "Contenido": "Portafolio de Trabajo para Consultor ERP Y CRM",
+        "imagen":"./imgProyectos/JavasCript/portafolioLuis.png",
+        "tecnologias":"Tecnologias usadas: Html, Css, Javascript, Git",
+        "links":"https://github.com/Jl-torres/Portafolio-Luis",
+        "links2":"https://jl-torres.github.io/Portafolio-Luis/",
+        "links2Class": "btn btn-pt2 btn2-primary btn2" ,
+        "boton":"Ver Codigo"
+    } ,
+    {   "id":5 ,
+        "titulo":"Calculadora",
+        "Contenido": "Ejercicio de programacion, creacion de una calculadora",
+        "imagen":"./imgProyectos/JavasCript/calculadora.png",
+        "tecnologias":"Tecnologias usadas: Html, Css, Javascript, Git",
+        "links":"https://github.com/Jl-torres/calculadora",
+        "links2":"https://jl-torres.github.io/calculadora/",
+        "links2Class": "btn btn-pt2 btn-primary btn2" ,
+        "boton":"Ver Codigo"
+    }  ,
+    {   "id":6 ,
+        "titulo":"Generador de Claves",
+        "Contenido": "Ejercicio de programacion para generar claves de forma aleatoria",
+        "imagen":"./imgProyectos/JavasCript/generadorDeClaves.png",
+        "tecnologias":"Tecnologias usadas: Html, Css, Javascript, Git",
+        "links":"https://github.com/Jl-torres/Generador-de-claves",
+        "links2":"https://jl-torres.github.io/Generador-de-Claves/",
+        "links2Class": "btn btn-pt2 btn-primary btn2" ,
+        "boton":"Ver Codigo"
+    }            
       
     ]
  }
